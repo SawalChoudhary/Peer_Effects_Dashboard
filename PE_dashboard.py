@@ -67,6 +67,7 @@ total_participants = multi_df.shape[0] - 1
 
 # Create a Dash app
 app = Dash(__name__)
+server = app.server
 
 
 # Define the layout and interactivity of the dashboard
